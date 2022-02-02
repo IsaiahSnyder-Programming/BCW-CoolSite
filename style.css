@@ -1,8 +1,8 @@
 :root {
-    --black: #383838;
-    --grey: #c5c5c5c5;
-    --blue: rgba(0, 36, 241, 0.8);
-    --lightBlue: rgba(64, 112, 255, 0.8);
+    --black: #000000;
+    --grey: #7e7e7ec5;
+    --blue: rgba(241, 217, 0, 0.8);
+    --lightBlue: rgba(255, 242, 64, 0.8);
 }
 
 
@@ -28,7 +28,7 @@ main {
 }
 
 .text-shadow {
-    text-shadow: .05rem .05rem var(--black);
+    text-shadow: .05rem .05rem var(--grey);
 }
 
 .mt-padding {
@@ -69,6 +69,7 @@ main {
 .side-text {
     text-align: center;
     padding: 1vw;
+    word-break: break-all;
 }
 
 .side-text-p {
